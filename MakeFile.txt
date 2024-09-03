@@ -1,0 +1,12 @@
+
+CC = gcc
+CFLAGS = -fopenmp -O3
+TARGET = matrix_multiplication
+
+all: $(TARGET)
+
+$(TARGET): matrix_multiplication.c
+	$(CC) $(CFLAGS) -o $(TARGET) matrix_multiplication.c
+
+clean:
+	rm -f $(TARGET)
