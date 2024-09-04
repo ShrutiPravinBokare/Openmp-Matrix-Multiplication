@@ -44,10 +44,10 @@ D] Measure Performance:
         For each element 𝑘 :
           Update C[i][j] as C[i][j]+=A[i][k]×B[k][j].
     
-    4) Parallel Computation:
+   4) Parallel Computation:
         Apply OpenMP parallelism to the outer loop of the matrix multiplication.
 
-    5) Output:
+   5) Output:
         Print the time taken for the matrix multiplication process.
         
 
